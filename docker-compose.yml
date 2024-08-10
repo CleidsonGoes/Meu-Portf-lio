@@ -1,0 +1,11 @@
+services:
+  node:
+    image: node:20-alpine
+    container_name: portfolio
+    ports:
+      - "3000:3000"
+    volumes: 
+      - .:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true

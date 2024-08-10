@@ -1,0 +1,29 @@
+# Arquivos de configuração e ambiente
+.env
+config.local.json
+
+# Dependências instaladas
+node_modules/
+vendor/
+
+# Arquivos gerados automaticamente
+dist/
+build/
+*.log
+*.tmp
+
+# Arquivos de backup ou temporários
+*.bak
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache
+.cache/
+*.cache
+
+# Arquivos de configuração da IDE
+.vscode/
+.idea/
+*.iml
