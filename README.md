@@ -1,3 +1,5 @@
+É necessário executar o comando "npx json-server db.json" para carregar os dados antes de executar o comando "npm run dev" para rodar a aplicação
+
 # CMS HEADLESS
 
 Um "Headless CMS" é um sistema de gerenciamento de conteúdo que não possui uma camada de apresentação ou "front-end" embutida para a exibição do conteúdo. Em vez disso, ele fornece o conteúdo por meio de uma API, geralmente RESTful ou GraphQL, permitindo que o conteúdo seja consumido e exibido por qualquer cliente front-end de escolha, como websites, aplicativos móveis, dispositivos IoT, entre outros.
