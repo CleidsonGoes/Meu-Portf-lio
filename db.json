@@ -2,14 +2,14 @@
     {
         "id": 1,
         "projectName": "API de blogs",
-        "tags": ["", "", ""],
-        "icon": ""
+        "tags": ["JavaScript", "Express", "API Rest", "Docker", "MySQL", "Node", "Sequelize", "JWT", "Jest"],
+        "icon": "./src/assets/api-blog.png"
     },
     {
         "id": 2,
         "projectName": "Store Manager",
-        "tags": ["", "", ""],
-        "icon": ""
+        "tags": ["JavaScript", "API RestFull", "MySQL", "Express", "SQL", "Docker", "Testes unitários"],
+        "icon": "./src/assets/store-manager.png"
     },
     {
         "id": 3,
