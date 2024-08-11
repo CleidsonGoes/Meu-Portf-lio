@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-max-depth */
 import { useEffect, useRef, useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-// import profileImg from '../assets/dfasdfa/.png';
+import profileImg from '../assets/Captura de tela de 2023-08-14 16-33-16.png';
 import NavLink from './NavLink';
 
 const links = ['home', 'sobre', 'projetos'];
@@ -55,7 +55,7 @@ function Header() {
       >
         <div className="text-white">
           <h1 className="text-6xl font-bold">Cleidson Goes</h1>
-          <p className="text-2xl text-green-500">Desenvolvedor Front-End</p>
+          <p className="text-2xl text-green-500">Desenvolvedor Full stack</p>
           <div className="flex gap-4 mt-8 text-green-500">
             <a
               href="https://www.linkedin.com/in/cleidson-jorge-s-goes/"
@@ -75,7 +75,7 @@ function Header() {
           </div>
         </div>
         <div>
-          {/* <img src={ profileImg } alt="" /> */}
+          <img src={ profileImg } alt="" />
         </div>
       </div>
     </div>

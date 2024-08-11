@@ -11,10 +11,13 @@ function Experience() {
             Experiência
           </h2>
           <p className="text-base md:w-3/4">
-            Auxiliar técnico administrativo - Fundação Luís Eduardo Magalhães (Agosto/2019 – Agosto/2021)
-            *Manuseio de arquivos e documentos, Inclusão de dados e arquivos em sistema.
-            *Atendimento ao público – com 20.000 atendimentos feitos.
-            *Suporte de informática, Envio de e-mail, Digitalização e impressão de documentos e arquivamento de documentos 	físicos.
+            <b>Auxiliar técnico administrativo</b> - Fundação Luís Eduardo Magalhães (Agosto/2019 – Agosto/2021)<br/>
+            <br/>
+            <ul>
+              <li>Manuseio de arquivos e documentos, Inclusão de dados e arquivos em sistema.</li>
+              <li>Atendimento ao público – com 20.000 atendimentos feitos.</li>
+              <li>Suporte de informática, Envio de e-mail, Digitalização e impressão de documentos e arquivamento de documentos físicos.</li>
+            </ul>    
           </p>
         </div>
       </section>
