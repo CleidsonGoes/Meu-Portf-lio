@@ -1,14 +1,15 @@
-export type ProjectCardProps = {
-  projectName: string;
-  tags: string[];
-  slug: string;
-  image: string;
+export type DbListProps = {
+  "id": number,
+  "projectName": string,
+  "tags": string[],
+  "icon": string,
+  "url": string
 };
 
-function ProjectCard({ projectName, tags, slug, image }: ProjectCardProps) {
+function ProjectCard({ projectName, tags, url, icon }: DbListProps) {
   return (
     <div className="rounded-2xl shadow-lg overflow-hidden bg-dark-900 flex flex-col h-full" id="projetos">
-      <img src={ image } alt="" className="w-full object-cover" />
+      <img src={ icon } alt="" className="w-full object-cover" />
       <div className="p-4 flex flex-col flex-grow">
         <h2 className="text-xl font-bold text-white">{projectName}</h2>
         <div className="flex flex-wrap mt-2 mb-auto">
@@ -22,7 +23,7 @@ function ProjectCard({ projectName, tags, slug, image }: ProjectCardProps) {
           ))}
         </div>
         <a
-          href={ `/${slug}` }
+          href={ url }
           className="bg-green-500 mt-4 px-4 py-2 rounded-md w-full block text-center"
         >
           Ver mais detalhes

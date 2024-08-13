@@ -1,24 +1,34 @@
 import { useEffect, useState } from 'react';
 import ProjectCard from './ProjectCard';
-import { getProjects } from '../../../services/api';
+// import { getProjects } from '../../../services/api';
+import dbList from '../../../../db.json'
 
-type ProjectListProps = {
-  metadata: {
-    descricao_do_projeto: string;
-    imagem_do_projeto: {
-      url: string;
-    };
-    tags: string;
-  };
-  slug: string;
-  title: string;
-};
+// type ProjectListProps = {
+//   metadata: {
+//     descricao_do_projeto: string;
+//     imagem_do_projeto: {
+//       url: string;
+//     };
+//     tags: string;
+//   };
+//   slug: string;
+//   title: string;
+// };
+
+type DbListProps = {
+  "id": number,
+  "projectName": string,
+  "tags": string[],
+  "icon": string,
+  "url": string
+}
 
 function ProjectList() {
-  const [projects, setProjects] = useState<ProjectListProps[]>([]);
+  const [projects, setProjects] = useState<DbListProps[]>([]);
 
   useEffect(() => {
-    getProjects().then((data) => setProjects(data));
+    // getProjects().then((data) => setProjects(data));
+    setProjects(dbList)
   }, []);
 
   return (
@@ -34,11 +44,11 @@ function ProjectList() {
         >
           {projects?.map((project) => (
             <ProjectCard
-              key={ project.slug }
-              projectName={ project.title }
-              tags={ project.metadata.tags.split(',').map((tag) => tag.trim()) }
-              image={ project.metadata.imagem_do_projeto.url }
-              slug={ project.slug }
+              id={ project.id }
+              projectName={ project.projectName }
+              tags={ project.tags.map((tag) => tag.trim()) }
+              icon={ project.icon }
+              url={ project.url }
             />
           ))}
         </div>

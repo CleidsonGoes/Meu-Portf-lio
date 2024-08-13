@@ -3,30 +3,35 @@
         "id": 1,
         "projectName": "API de blogs",
         "tags": ["JavaScript", "Express", "API Rest", "Docker", "MySQL", "Node", "Sequelize", "JWT", "Jest"],
-        "icon": "./src/assets/api-blog.png"
+        "icon": "./src/assets/api-blog.png",
+        "url": "https://github.com/CleidsonGoes/Project_API_de_blogs"
     },
     {
         "id": 2,
         "projectName": "Store Manager",
         "tags": ["JavaScript", "API RestFull", "MySQL", "Express", "SQL", "Docker", "Testes unitários"],
-        "icon": "./src/assets/store-manager.png"
+        "icon": "./src/assets/store-manager.png",
+        "url": ""
     },
     {
         "id": 3,
         "projectName": "Recipes app",
-        "tags": ["", "", ""],
-        "icon": ""
+        "tags": ["", "JavaScript", ""],
+        "icon": "",
+        "url": ""
     },
     {
         "id": 4,
         "projectName": "Frontend-online-store",
-        "tags": ["", "", ""],
-        "icon": ""
+        "tags": ["JavaScript", "", ""],
+        "icon": "",
+        "url": ""
     },
     {
         "id": 5,
         "projectName": "Traduzo",
         "tags": ["Python", "", ""],
-        "icon": ""
+        "icon": "",
+        "url": ""
     }
 ]
