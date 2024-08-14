@@ -16,9 +16,9 @@
     {
         "id": 3,
         "projectName": "Recipes app",
-        "tags": ["", "JavaScript", ""],
-        "icon": "",
-        "url": ""
+        "tags": ["TypeScript", "JavaScript", "CSS", "React", "React Hooks","ContextAPI", "Testes unitários", "Git"],
+        "icon": "./src/assets/recipes-app.png",
+        "url": "https://github.com/CleidsonGoes/Project-recipes-app"
     },
     {
         "id": 4,
