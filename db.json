@@ -11,21 +11,21 @@
         "projectName": "Store Manager",
         "tags": ["JavaScript", "API RestFull", "MySQL", "Express", "SQL", "Docker", "Testes unitários"],
         "icon": "./src/assets/store-manager.png",
-        "url": ""
+        "url": "https://github.com/CleidsonGoes/Project_Store_Manager"
     },
     {
         "id": 3,
         "projectName": "Recipes app",
-        "tags": ["TypeScript", "JavaScript", "CSS", "React", "React Hooks","ContextAPI", "Testes unitários", "Git"],
+        "tags": ["TypeScript", "JavaScript", "CSS", "HTML", "React", "React Hooks","ContextAPI", "Testes unitários", "Git"],
         "icon": "./src/assets/recipes-app.png",
         "url": "https://github.com/CleidsonGoes/Project-recipes-app"
     },
     {
         "id": 4,
         "projectName": "Frontend-online-store",
-        "tags": ["JavaScript", "", ""],
-        "icon": "",
-        "url": ""
+        "tags": ["JavaScript", "TypeScript", "CSS", "HTML", "React", "React Router"],
+        "icon": "./src/assets/online-store.png",
+        "url": "https://github.com/CleidsonGoes/Project-frontend-online-store-ts"
     },
     {
         "id": 5,
