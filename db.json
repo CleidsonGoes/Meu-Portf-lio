@@ -30,8 +30,8 @@
     {
         "id": 5,
         "projectName": "Traduzo",
-        "tags": ["Python", "", ""],
-        "icon": "",
-        "url": ""
+        "tags": ["Python", "Flask", "API", "POO", "Docker"],
+        "icon": "./src/assets/traduzo.png",
+        "url": "https://github.com/CleidsonGoes/Project-Traduzo-Python"
     }
 ]
