@@ -29,7 +29,7 @@
     },
     {
         "id": 5,
-        "projectName": "Traduzo",
+        "projectName": "Traduzo-Python",
         "tags": ["Python", "Flask", "API", "POO", "Docker"],
         "icon": "./src/assets/traduzo.png",
         "url": "https://github.com/CleidsonGoes/Project-Traduzo-Python"

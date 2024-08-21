@@ -1,4 +1,5 @@
-É necessário executar o comando "npx json-server db.json" para carregar os dados antes de executar o comando "npm run dev" para rodar a aplicação
+É necessário executar o comando "npx json-server db.json" no terminal para carregar os dados
+Em outro terminal execute o "npm run dev" para rodar a aplicação
 
 # CMS HEADLESS
 
